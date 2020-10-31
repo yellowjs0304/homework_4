@@ -69,5 +69,5 @@ From (https://github.com/SidSong01/seq2seq_video2text)
    ```
    tensorboard --logdir=./logs/train(test)
    ```
-   웹 브라우저에서 http://localhost:6006/으로 확인   
+   웹 브라우저에서 http://localhost:6006/ 으로 확인   
    
