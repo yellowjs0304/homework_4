@@ -21,7 +21,7 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 
 ### __1. 필요 라이브러리 설치__ ###   
 ( Anaconda 환경 생성 후, 설치 진행)   
-- python 3.5 / Tensorflow 1.15.0
+- python 3.5(or 3.6) / Tensorflow 1.15.0
 ```
 pip install -r requirements.txt
 ```
