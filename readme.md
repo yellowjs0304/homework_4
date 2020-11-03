@@ -31,7 +31,9 @@ pip install -r requirements.txt
 ### __2. 학습 데이터 다운로드__ ###   
 
 [다운로드 링크](https://drive.google.com/file/d/1WV12AvojTshyfsDAkmDhkxw7qUcGPgGm/view?usp=sharing)   
---> 이미 LMS로부터 받으신 분은 해당 zip파일 그대로 사용하시면 됩니다. 혹시나 LMS에 전체 데이터가 다 올라가지 않을까 염려되어 링크를 올려둔 것이니, 참고하시기 바랍니다. 데이터.zip파일의 용량은 약 2.24GB이며, 압축 해제했을 경우엔 5.18GB 정도의 사이즈를 갖고 있습니다. 확인해보시고 문제 있으시면 다시 다운로드 받아 사용하세요.
+--> 이미 LMS로부터 받으신 분은 해당 zip파일 그대로 사용하시면 됩니다. 혹시나 LMS에 전체 데이터가 다 올라가지 않을까 염려되어 링크를 올려둔 것이니, 참고하시기 바랍니다.   
++) 데이터.zip파일의 용량은 약 2.24GB이며, 압축 해제했을 경우엔 5.18GB 정도의 사이즈를 갖고 있습니다. 확인해보시고 문제 있으시면 다시 다운로드 받아 사용하세요.   
++) 다운받으신 데이터는 data폴더 안에 풀어주시면 됩니다.
 
 ### __3. 수정해야 하는 파일들__ ###
 blue_eval.py, model_train.py, model_test.py 세 가지 파일 내 본인 경로로 변경   
@@ -57,8 +59,9 @@ From (https://github.com/SidSong01/seq2seq_video2text)
   ```
   python model_test.py
   ```
-  final_output.txt파일 생성 여부 확인 
+  final_output.txt파일 생성 여부 확인   
   
+  ![image2](./final_output_image.jpg)
   ```
   python bleu_eval.py
   ```
