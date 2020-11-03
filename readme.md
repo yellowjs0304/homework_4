@@ -59,8 +59,9 @@ From (https://github.com/SidSong01/seq2seq_video2text)
   ```
   python model_test.py
   ```
-  final_output.txt파일 생성 여부 확인 
+  final_output.txt파일 생성 여부 확인   
   
+  ![image2](./final_output_image.jpg)
   ```
   python bleu_eval.py
   ```
