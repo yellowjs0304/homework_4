@@ -23,8 +23,8 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 
 ### __1. 필요 라이브러리 설치__ ###   
 ( Anaconda 환경 생성 후, 설치 진행)   
-- python 3.5(or 3.6) / Tensorflow 1.15.0    
-버전 오류가 있으신 분들은 python 3.6 버전을 설치해서 진행해보시기 바랍니다.
+- python 3.6 / Tensorflow 1.15.0    
+설치 과정 중 버전 오류가 있으신 분들은 python 3.6.1 ~ 3.6.12 버전을 설치해서 진행해보시기 바랍니다.
 ```
 pip install -r requirements.txt
 ```
