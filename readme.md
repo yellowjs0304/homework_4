@@ -8,7 +8,9 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 
 - GPU를 쓸 때는 각자의 Nvidia 그래픽 드라이버에 맞춰서 CUDA와 CuDNN을 설치해주셔야 합니다. 저는 CUDA 9.2를 사용했었습니다. 오류가 있으신분들은 10.0으로 변경 후 재시도 해보시기 바랍니다.   
 
-- 환경 셋팅 시, 여러 개의 tensorflow가 설치되어 있는 분들이 있습니다. GPU가 있는 분들은 -gpu버전을 설치해주셔도 무방하지만, 없으신 분들은 requirement에서 "-gpu"를 -cpu로 변경하고 설치해주세요. 밑에까지 안읽고 그냥 설치하시는 분들이 많아 한번 더 명시해드립니다.
+- 환경 셋팅 시, 여러 개의 tensorflow가 설치되어 있는 분들이 있습니다. GPU가 있는 분들은 -gpu버전을 설치해주셔도 무방하지만, 없으신 분들은 requirement에서 "-gpu"를 -cpu로 변경하고 설치해주세요. 밑에까지 안읽고 그냥 설치하시는 분들이 많아 한번 더 명시해드립니다.   
+
+- biLSTM구현 시 keras함수를 제외한 나머지 basicLSTMCell활용 tf함수는 사용하셔도 무방합니다.   
 
 - 어텐션 참고 링크 : (https://www.tensorflow.org/tutorials/text/image_captioning)
 ![image_model_1](./bilstm.jpg)   
