@@ -16,6 +16,8 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 
 - biLSTM구현 시 keras함수를 제외한 나머지 basicLSTMCell활용 tf함수는 사용하셔도 무방합니다.   
 
+- test과정 중(bleu_eval.py) XXX.avi 파일이 없다 뜨거나 pred값이 나오지 않을 경우, test_model.py의 batch size를 100으로 고정한 상태에서 다시 돌려주세요.   
+
 - 어텐션 참고 링크 : (https://www.tensorflow.org/tutorials/text/image_captioning)
 ![image_model_1](./bilstm.jpg)   
 ![image_model_2](./attention.jpg)
@@ -62,7 +64,8 @@ From (https://github.com/SidSong01/seq2seq_video2text)
   ```
   python model_train.py
   ```
-### __3. 성능 확인__ ###
+### __3. 성능 확인__ ###   
+  batch_size변수 100으로 고정해놓고 돌려주세요.
 
   ```
   python model_test.py
