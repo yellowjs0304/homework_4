@@ -12,7 +12,8 @@ from model_train import vedio2text
 # 실험에 사용할 모델이 model_train에 있는지 한번 확인
 
 '''
-# 하이퍼 파라미터 조정
+# 하이퍼 파라미터
+batch size는 100으로 고정
 '''
 learning_rate = 0.001
 num_epoches = 100
