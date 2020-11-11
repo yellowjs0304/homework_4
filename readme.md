@@ -65,7 +65,13 @@ From (https://github.com/SidSong01/seq2seq_video2text)
 ### __2. 학습진행__ ###   
   ```
   python model_train.py
-  ```
+  ```   
+  
+  ![image3](./save_model_image.jpg)   
+  ![image4](./logs_image.jpg)   
+  logs폴더엔 Tensorboard용 데이터, save_model엔 checkpoint파일과 save_model~~.meta 등의 모델 파일이 존재합니다.   
+  학습이 완료되면 파일을 꼭 확인하고, 만약 Test과정에서 모델을 로딩하지 못할 경우 checkpoint를 직접 수정하여 불러올 파일을 명시할 수 있습니다.   
+  
 ### __3. 성능 확인__ ###   
   batch_size변수 100으로 고정해놓고 돌려주세요.
 
