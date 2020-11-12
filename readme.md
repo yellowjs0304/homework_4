@@ -14,14 +14,14 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 
 - 환경 셋팅 시, 여러 개의 tensorflow가 설치되어 있는 분들이 있습니다. GPU가 있는 분들은 -gpu버전을 설치해주셔도 무방하지만, 없으신 분들은 requirement에서 "-gpu"를 -cpu로 변경하고 설치해주세요. 밑에까지 안읽고 그냥 설치하시는 분들이 많아 한번 더 명시해드립니다.   
 
-- biLSTM구현 시 keras함수를 제외한 나머지 basicLSTMCell활용 tf함수는 사용하셔도 무방합니다.   
+- biLSTM구현 시 keras함수를 제외한 나머지 basicLSTMCell활용 tf함수는 사용하셔도 무방합니다. 제가 그린 그림에서 오히려 오해가 생기는 것 같아 다른 논문에서 그림을 가져왔습니다. 조금 더 명확한 그림이니 도움이 되실 거라 생각합니다.   
 
 - test과정 중(bleu_eval.py) XXX.avi 파일이 없다 뜨거나 pred값이 나오지 않을 경우, test_model.py의 batch size를 100으로 고정한 상태에서 다시 돌려주세요.   
 
 - session start는 그냥 모델 시작 로그입니다. num steps를 확인하면 1epoch의 길이를 확인할 수 있으며 cuda error가 생기면 기존 tensorflow, 삭제 후 tensorflow cpu설치해주세요.   
  
 - 어텐션 참고 링크 : (https://www.tensorflow.org/tutorials/text/image_captioning)
-![image_model_1](./bilstm.jpg)   
+![image_model_1](./bilstm_image.jpg)   
 ![image_model_2](./attention.jpg)
 ------------
 
