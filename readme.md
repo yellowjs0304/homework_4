@@ -21,7 +21,7 @@ __지속적으로 GitHub readme를 업데이트 하고 있습니다. 오류가 �
 - session start는 그냥 모델 시작 로그입니다. num steps를 확인하면 1epoch의 길이를 확인할 수 있으며 cuda error가 생기면 기존 tensorflow, 삭제 후 tensorflow cpu설치해주세요.   
  
 - 어텐션 참고 링크 : (https://www.tensorflow.org/tutorials/text/image_captioning)
-![image_model_1](./bilstm_image.jpg)   
+![image_model_1](./bilstm_renew_image.jpg)   
 ![image_model_2](./attention.jpg)
 ------------
 
